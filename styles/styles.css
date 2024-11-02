@@ -56,6 +56,7 @@ img {
 .site-wrapper {
     margin: 1rem auto 0;
 }
+
 /* Links
 --------------------------------------------- */
 a {
@@ -135,6 +136,7 @@ header img {
         width: 7rem;
     }
 }
+
 /* Main
 --------------------------------------------- */
 /* Page Header */
@@ -182,6 +184,7 @@ h1 {
         margin: 1rem auto 8rem;
     }
 }
+
 /* Section: Works */
 .works h2 {
     margin: 5rem auto 2rem;
@@ -292,6 +295,7 @@ article h3:hover {
         font-size: 1.5rem;
     }
 }
+
 /* Footer
 --------------------------------------------- */
 footer {
