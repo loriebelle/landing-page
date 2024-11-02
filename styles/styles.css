@@ -1,0 +1,167 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic (CALLED IN NORMALIZE.CSS)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Components
+	- Header
+	- Main
+	- Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Typography
+--------------------------------------------- */
+html {
+	scroll-padding-top: 1rem;
+	scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    width: 10rem;
+}
+/* Elements
+--------------------------------------------- */
+.site-wrapper {
+    margin: 1rem;
+}
+/* Links
+--------------------------------------------- */
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+
+/* Header
+--------------------------------------------- */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header img {
+    width: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.navigation {
+    display: inline-flex;
+    margin: auto;
+    list-style: none;
+    margin: 2rem 1rem;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #000000;
+    margin: .5rem;
+    border-radius: 3rem;
+    background-color: #f2adb6;
+    padding: 1rem 1rem;
+}
+
+/* Main
+--------------------------------------------- */
+/* Page Header */
+
+/* Section: Home */
+.home h1 {
+    margin: 6rem 2rem 0;
+}
+
+.home p {
+    margin: 0 1rem 6rem;
+}
+
+/* Section: Profile */
+.profile {
+    display: block;
+    margin: 1rem 0 0;
+    justify-self: center;
+    max-width: 30rem;
+}
+
+/* Section: Works */
+.works h2 {
+    margin: 5rem auto 2rem;
+}
+
+.works article {
+    background-color: #f7c5cc;
+    padding: 1rem 0 .5rem;
+    margin: 1rem auto 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 19rem;
+}
+
+.works article img {
+    width: 15rem;
+    justify-content: center;
+    align-content: center;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+article h3 {
+    margin: .5rem auto 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+/* Section: Contact */
+.contact h2 {
+    margin: 3rem auto 1rem;
+}
+.socials img {
+    width: 3.5rem;
+    margin: auto .5rem 2rem;
+    background-color: brown;
+    border-radius: 10rem;
+    padding: .5rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+/* Footer
+--------------------------------------------- */
